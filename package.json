@@ -1,0 +1,38 @@
+{
+  "name": "express-passport-login",
+  "version": "1.0.0",
+  "description": "sample version of passport login",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pindiespace/express-passport-login.git"
+  },
+  "keywords": [
+    "passport",
+    "express",
+    "node"
+  ],
+  "author": "pete markiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pindiespace/express-passport-login/issues"
+  },
+  "homepage": "https://github.com/pindiespace/express-passport-login#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "ip": "^1.1.2",
+    "passport": "^0.3.2",
+    "passport-github": "^1.1.0",
+    "path": "^0.12.7",
+    "pug": "^0.1.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js localhost 9999"
+  }
+}
